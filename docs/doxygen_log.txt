@@ -1,0 +1,423 @@
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching INPUT for files to process...
+Searching for files in directory C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files
+Reading and parsing tag files
+Parsing files
+Preprocessing C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.cpp...
+Parsing file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.cpp...
+Preprocessing C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.h...
+Parsing file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.h...
+Preprocessing C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.cpp...
+Parsing file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.cpp...
+Preprocessing C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h...
+Parsing file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h...
+Preprocessing C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.cpp...
+Parsing file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.cpp...
+Preprocessing C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h...
+Parsing file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h...
+Preprocessing C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.cpp...
+Parsing file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.cpp...
+Preprocessing C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h...
+Parsing file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h...
+Preprocessing C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.cpp...
+Parsing file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.cpp...
+Preprocessing C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h...
+Parsing file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Associating documentation with classes...
+Computing nesting relations for classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Creating members for template instances...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Freeing entry tree
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Computing dependencies between directories...
+Generating citations page...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating code for file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.h...
+Generating code for file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h...
+Generating code for file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h...
+Generating code for file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h...
+Generating code for file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h...
+Generating file documentation...
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound CplexModel...
+'epstopdf' n?o ? reconhecido como um comando interno
+ou externo, um programa oper?vel ou um arquivo em lotes.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h:8: warning: Compound ProblemSolver is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.h:5: warning: Compound Environment is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:27: warning: Compound Param is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:14: warning: Compound GurobiModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:12: warning: Compound CplexModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:6: warning: Compound OptGurobi is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:17: warning: Compound Opt is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:39: warning: Compound Model is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:28: warning: Member getModel() (function) of class CplexModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:29: warning: Member imprimirInformacoes() (function) of class CplexModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:31: warning: Member around(float var) (function) of class CplexModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:37: warning: Member addConstraint(int rhsVarId, int lhsVarId, string type, string name, double lowerbound) (function) of class CplexModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:40: warning: Member getNumConstraints() (function) of class CplexModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:45: warning: Member setConstraintCoeffs(const double coeff, int indexConstr, int indexVar) (function) of class CplexModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:48: warning: Member buildModel(string sense, int varMaxDisp, int varMaxDist) (function) of class CplexModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:49: warning: Member setParamTimeLimit() (function) of class CplexModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:53: warning: Member setParamMIPStart(int value) (function) of class CplexModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:54: warning: Member setParamRins() (function) of class CplexModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:56: warning: Member setParamVarSel() (function) of class CplexModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:58: warning: Member printVarsInSol() (function) of class CplexModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:59: warning: Member getVarsInSol() (function) of class CplexModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:35: warning: argument 'double' of command @param is not found in the argument list of CplexModel::addConstraint(double rightSide, string sense, string name, double lowerbound=0) inherited from member addConstraint at line 97 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:35: warning: argument 'double' of command @param is not found in the argument list of CplexModel::addConstraint(double rightSide, string sense, string name, double lowerbound=0) inherited from member addConstraint at line 97 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:35: warning: argument 'string' of command @param is not found in the argument list of CplexModel::addConstraint(double rightSide, string sense, string name, double lowerbound=0) inherited from member addConstraint at line 97 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:35: warning: argument 'string' of command @param is not found in the argument list of CplexModel::addConstraint(double rightSide, string sense, string name, double lowerbound=0) inherited from member addConstraint at line 97 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:35: warning: The following parameters of CplexModel::addConstraint(double rightSide, string sense, string name, double lowerbound=0) are not documented:
+  parameter 'rightSide'
+  parameter 'sense'
+  parameter 'name'
+  parameter 'lowerbound'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:36: warning: argument 'none' of command @param is not found in the argument list of CplexModel::addConstraint(double coeff, int rhsVarId, int lhsVarId, string type, string name, double lowerbound) inherited from member addConstraint at line 106 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:36: warning: The following parameters of CplexModel::addConstraint(double coeff, int rhsVarId, int lhsVarId, string type, string name, double lowerbound) are not documented:
+  parameter 'coeff'
+  parameter 'rhsVarId'
+  parameter 'lhsVarId'
+  parameter 'type'
+  parameter 'name'
+  parameter 'lowerbound'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:64: warning: argument 'double' of command @param is not found in the argument list of CplexModel::addStartMIP(double *values, string name, int MIPEnum)
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:64: warning: argument 'string' of command @param is not found in the argument list of CplexModel::addStartMIP(double *values, string name, int MIPEnum)
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:64: warning: argument 'int' of command @param is not found in the argument list of CplexModel::addStartMIP(double *values, string name, int MIPEnum)
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:79: warning: The following parameters of CplexModel::addStartMIP(double *values, string name, int MIPEnum) are not documented:
+  parameter 'values'
+  parameter 'name'
+  parameter 'MIPEnum'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:30: warning: argument 'double' of command @param is not found in the argument list of CplexModel::addVar(double upperbound, double obj, string name, string type="float", double lowerbound=0) inherited from member addVar at line 47 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:30: warning: argument 'double' of command @param is not found in the argument list of CplexModel::addVar(double upperbound, double obj, string name, string type="float", double lowerbound=0) inherited from member addVar at line 47 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:30: warning: argument 'string' of command @param is not found in the argument list of CplexModel::addVar(double upperbound, double obj, string name, string type="float", double lowerbound=0) inherited from member addVar at line 47 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:30: warning: argument 'string' of command @param is not found in the argument list of CplexModel::addVar(double upperbound, double obj, string name, string type="float", double lowerbound=0) inherited from member addVar at line 47 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:30: warning: The following parameters of CplexModel::addVar(double upperbound, double obj, string name, string type="float", double lowerbound=0) are not documented:
+  parameter 'upperbound'
+  parameter 'obj'
+  parameter 'name'
+  parameter 'type'
+  parameter 'lowerbound'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:47: warning: argument 'double' of command @param is not found in the argument list of CplexModel::buildModel(string sense) inherited from member buildModel at line 125 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:47: warning: The following parameters of CplexModel::buildModel(string sense) are not documented:
+  parameter 'sense'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:32: warning: argument 'int' of command @param is not found in the argument list of CplexModel::changeNonzeros(int nonzeros, string name) inherited from member changeNonzeros at line 56 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:32: warning: argument 'string' of command @param is not found in the argument list of CplexModel::changeNonzeros(int nonzeros, string name) inherited from member changeNonzeros at line 56 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:32: warning: The following parameters of CplexModel::changeNonzeros(int nonzeros, string name) are not documented:
+  parameter 'nonzeros'
+  parameter 'name'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:46: warning: argument 'int' of command @param is not found in the argument list of CplexModel::chgCoeff(string constrName, string varName, float coeff) inherited from member chgCoeff at line 89 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:46: warning: argument 'double' of command @param is not found in the argument list of CplexModel::chgCoeff(string constrName, string varName, float coeff) inherited from member chgCoeff at line 89 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:46: warning: The following parameters of CplexModel::chgCoeff(string constrName, string varName, float coeff) are not documented:
+  parameter 'constrName'
+  parameter 'varName'
+  parameter 'coeff'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:41: warning: argument 'none' of command @param is not found in the argument list of CplexModel::getNumVars() inherited from member getNumVars at line 119 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:38: warning: argument 'string' of command @param is not found in the argument list of CplexModel::removeConstraint(string name) inherited from member removeConstraint at line 113 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:38: warning: The following parameters of CplexModel::removeConstraint(string name) are not documented:
+  parameter 'name'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.cpp:111: warning: argument 'string' of command @param is not found in the argument list of CplexModel::removeConstraint(string name, bool deleteAll)
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.cpp:111: warning: argument 'bool' of command @param is not found in the argument list of CplexModel::removeConstraint(string name, bool deleteAll)
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:39: warning: The following parameters of CplexModel::removeConstraint(string name, bool deleteAll) are not documented:
+  parameter 'name'
+  parameter 'deleteAll'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:33: warning: argument 'string' of command @param is not found in the argument list of CplexModel::removeVar(string name) inherited from member removeVar at line 63 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:33: warning: The following parameters of CplexModel::removeVar(string name) are not documented:
+  parameter 'name'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.cpp:133: warning: argument 'string' of command @param is not found in the argument list of CplexModel::removeVar(string name, bool deleteAll)
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.cpp:133: warning: argument 'bool' of command @param is not found in the argument list of CplexModel::removeVar(string name, bool deleteAll)
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:34: warning: The following parameters of CplexModel::removeVar(string name, bool deleteAll) are not documented:
+  parameter 'name'
+  parameter 'deleteAll'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:42: warning: argument 'const' of command @param is not found in the argument list of CplexModel::setAllVarsConstraintCoeffs(const double *coeffs) inherited from member setAllVarsConstraintCoeffs at line 69 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:42: warning: The following parameters of CplexModel::setAllVarsConstraintCoeffs(const double *coeffs) are not documented:
+  parameter 'coeffs'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:43: warning: argument 'const' of command @param is not found in the argument list of CplexModel::setConstraintCoeffs(vector coeffs, string name) inherited from member setConstraintCoeffs at line 75 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:43: warning: The following parameters of CplexModel::setConstraintCoeffs(vector coeffs, string name) are not documented:
+  parameter 'coeffs'
+  parameter 'name'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:44: warning: argument 'string' of command @param is not found in the argument list of CplexModel::setConstraintCoeffs(const double *coeffs, int constrIndex) inherited from member setConstraintCoeffs at line 81 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:44: warning: argument 'double' of command @param is not found in the argument list of CplexModel::setConstraintCoeffs(const double *coeffs, int constrIndex) inherited from member setConstraintCoeffs at line 81 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:44: warning: The following parameters of CplexModel::setConstraintCoeffs(const double *coeffs, int constrIndex) are not documented:
+  parameter 'coeffs'
+  parameter 'constrIndex'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:52: warning: argument 'int' of command @param is not found in the argument list of CplexModel::setParamMIPStart(double *values) inherited from member setParamMIPStart at line 143 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:52: warning: The following parameters of CplexModel::setParamMIPStart(double *values) are not documented:
+  parameter 'values'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:55: warning: argument 'int' of command @param is not found in the argument list of CplexModel::setParamRins(int value) inherited from member setParamRins at line 157 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:55: warning: The following parameters of CplexModel::setParamRins(int value) are not documented:
+  parameter 'value'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:50: warning: argument 'double' of command @param is not found in the argument list of CplexModel::setParamTimeLimit(double timeLimit) inherited from member setParamTimeLimit at line 131 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:50: warning: The following parameters of CplexModel::setParamTimeLimit(double timeLimit) are not documented:
+  parameter 'timeLimit'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:51: warning: argument 'double' of command @param is not found in the argument list of CplexModel::setParamTolerance() inherited from member setParamTolerance at line 137 in Generating docs for compound Environment...
+Generating docs for compound GurobiModel...
+'epstopdf' n?o ? reconhecido como um comando interno
+ou externo, um programa oper?vel ou um arquivo em lotes.
+file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:57: warning: argument 'int' of command @param is not found in the argument list of CplexModel::setParamVarSel(int value) inherited from member setParamVarSel at line 178 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptCplex.h:57: warning: The following parameters of CplexModel::setParamVarSel(int value) are not documented:
+  parameter 'value'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.h:13: warning: Member Environment(int solver) (function) of class Environment is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.h:14: warning: Member getGRBEnv() (function) of class Environment is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.h:15: warning: Member getCplexEnv() (function) of class Environment is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.h:16: warning: Member getMdlGRB() (function) of class Environment is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.h:17: warning: Member getMdlCplex() (function) of class Environment is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.h:18: warning: Member setCplexEnv(IloEnv *CplexEnv) (function) of class Environment is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.h:19: warning: Member setGrbEnv(GRBEnv *grbEnv) (function) of class Environment is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.h:20: warning: Member setSolver(int solver) (function) of class Environment is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Environment.h:21: warning: Member getSolver() (function) of class Environment is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:27: warning: Member getModel() (function) of class GurobiModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:32: warning: Member updateModel() (function) of class GurobiModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:34: warning: Member getNumConstraints() (function) of class GurobiModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:39: warning: Member setConstraintCoeffs(const double coeff, int indexConstr, int indexVar) (function) of class GurobiModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:40: warning: Member chgCoeff(string constrName, string varName, double coeff) (function) of class GurobiModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:42: warning: Member setParamTimeLimit() (function) of class GurobiModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:46: warning: Member setParamMIPStart(string filename) (function) of class GurobiModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:47: warning: Member setParamRins() (function) of class GurobiModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:49: warning: Member setParamVarSel() (function) of class GurobiModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:51: warning: Member printVarsInSol() (function) of class GurobiModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:52: warning: Member getVarsInSol() (function) of class GurobiModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:206: warning: Member buildModel(string sense, int varMaxDisp, int varMaxDist)=0 (function) of class Model is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:54: warning: Member modelNeedUpdate (variable) of class GurobiModel is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:31: warning: argument 'double' of command @param is not found in the argument list of GurobiModel::addConstraint(double rightSide, string sense, string name, double lowerbound=0) inherited from member addConstraint at line 97 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:31: warning: argument 'double' of command @param is not found in the argument list of GurobiModel::addConstraint(double rightSide, string sense, string name, double lowerbound=0) inherited from member addConstraint at line 97 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:31: warning: argument 'string' of command @param is not found in the argument list of GurobiModel::addConstraint(double rightSide, string sense, string name, double lowerbound=0) inherited from member addConstraint at line 97 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:31: warning: argument 'string' of command @param is not found in the argument list of GurobiModel::addConstraint(double rightSide, string sense, string name, double lowerbound=0) inherited from member addConstraint at line 97 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:31: warning: The following parameters of GurobiModel::addConstraint(double rightSide, string sense, string name, double lowerbound=0) are not documented:
+  parameter 'rightSide'
+  parameter 'sense'
+  parameter 'name'
+  parameter 'lowerbound'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:28: warning: argument 'double' of command @param is not found in the argument list of GurobiModel::addVar(double upperbound, double obj, string name, string type="float", double lowerbound=0) inherited from member addVar at line 47 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:28: warning: argument 'double' of command @param is not found in the argument list of GurobiModel::addVar(double upperbound, double obj, string name, string type="float", double lowerbound=0) inherited from member addVar at line 47 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:28: warning: argument 'string' of command @param is not found in the argument list of GurobiModel::addVar(double upperbound, double obj, string name, string type="float", double lowerbound=0) inherited from member addVar at line 47 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:28: warning: argument 'string' of command @param is not found in the argument list of GurobiModel::addVar(double upperbound, double obj, string name, string type="float", double lowerbound=0) inherited from member addVar at line 47 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:28: warning: The following parameters of GurobiModel::addVar(double upperbound, double obj, string name, string type="float", double lowerbound=0) are not documented:
+  parameter 'upperbound'
+  parameter 'obj'
+  parameter 'name'
+  parameter 'type'
+  parameter 'lowerbound'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:41: warning: argument 'double' of command @param is not found in the argument list of GurobiModel::buildModel(string sense) inherited from member buildModel at line 125 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:41: warning: The following parameters of GurobiModel::buildModel(string sense) are not documented:
+  parameter 'sense'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:29: warning: argument 'int' of command @param is not found in the argument list of GurobiModel::changeNonzeros(int nonzeros, string name) inherited from member changeNonzeros at line 56 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:29: warning: argument 'string' of command @param is not found in the argument list of GurobiModel::changeNonzeros(int nonzeros, string name) inherited from member changeNonzeros at line 56 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:29: warning: The following parameters of GurobiModel::changeNonzeros(int nonzeros, string name) are not documented:
+  parameter 'nonzeros'
+  parameter 'name'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:35: warning: argument 'none' of command @param is not found in the argument list of GurobiModel::getNumVars() inherited from member getNumVars at line 119 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:33: warning: argument 'string' of command @param is not found in the argument list of GurobiModel::removeConstraint(string name) inherited from member removeConstraint at line 113 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:33: warning: The following parameters of GurobiModel::removeConstraint(string name) are not documented:
+  parameter 'name'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:30: warning: argument 'string' of command @param is not found in the argument list of GurobiModel::removeVar(string name) inherited from member removeVar at line 63 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:30: warning: The following parameters of GurobiModel::removeVar(string name) are not documented:
+  parameter 'name'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:36: warning: argument 'const' of command @param is not found in the argument list of GurobiModel::setAllVarsConstraintCoeffs(const double *coeffs) inherited from member setAllVarsConstraintCoeffs at line 69 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:36: warning: The following parameters of GurobiModel::setAllVarsConstraintCoeffs(const double *coeffs) are not documented:
+  parameter 'coeffs'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:37: warning: argument 'const' of command @param is not found in the argument list of GurobiModel::setConstraintCoeffs(vector coeffs, string name) inherited from member setConstraintCoeffs at line 75 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:37: warning: The following parameters of GurobiModel::setConstraintCoeffs(vector coeffs, string name) are not documented:
+  parameter 'coeffs'
+  parameter 'name'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:38: warning: argument 'string' of command @param is not found in the argument list of GurobiModel::setConstraintCoeffs(const double *coeffs, int constrIndex) inherited from member setConstraintCoeffs at line 81 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:38: warning: argument 'double' of command @param is not found in the argument list of GurobiModel::setConstraintCoeffs(const double *coeffs, int constrIndex) inherited from member setConstraintCoeffs at line 81 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:38: warning: The following parameters of GurobiModel::setConstraintCoeffs(const double *coeffs, int constrIndex) are not documented:
+  parameter 'coeffs'
+  parameter 'constrIndex'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:45: warning: argument 'int' of command @param is not found in the argument list of GurobiModel::setParamMIPStart(double *values) inherited from member setParamMIPStart at line 143 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:45: warning: The following parameters of GurobiModel::setParamMIPStart(double *values) are not documented:
+  parameter 'values'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:48: warning: argument 'int' of command @param is not found in the argument list of GurobiModel::setParamRins(int value) inherited from member setParamRins at line 157 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:48: warning: The following parameters of GurobiModel::setParamRins(int value) are not documented:
+  parameter 'value'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobGenerating docs for compound Model...
+'epstopdf' n?o ? reconhecido como um comando interno
+ou externo, um programa oper?vel ou um arquivo em lotes.
+iCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:43: warning: argument 'double' of command @param is not found in the argument list of GurobiModel::setParamTimeLimit(double timeLimit) inherited from member setParamTimeLimit at line 131 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:43: warning: The following parameters of GurobiModel::setParamTimeLimit(double timeLimit) are not documented:
+  parameter 'timeLimit'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:44: warning: argument 'double' of command @param is not found in the argument list of GurobiModel::setParamTolerance() inherited from member setParamTolerance at line 137 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:50: warning: argument 'int' of command @param is not found in the argument list of GurobiModel::setParamVarSel(int value) inherited from member setParamVarSel at line 178 in file C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/OptGurobi.h:50: warning: The following parameters of GurobiModel::setParamVarSel(int value) are not documented:
+  parameter 'value'
+error: Problems running epstopdf. Check your TeX installation!
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:87: warning: Member setConstraintCoeffs(const double coeff, int indexConstr, int indexVar)=0 (function) of class Model is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:111: warning: Member getNumConstraints()=0 (function) of class Model is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:204: warning: Member printVarsInSol()=0 (function) of class Model is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:206: warning: Member buildModel(string sense, int varMaxDisp, int varMaxDist)=0 (function) of class Model is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:209: warning: Member getVarsInSol()=0 (function) of class Model is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:97: warning: argument 'double' of command @param is not found in the argument list of Model::addConstraint(double rightSide, string sense, string name, double lowerbound)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:97: warning: argument 'double' of command @param is not found in the argument list of Model::addConstraint(double rightSide, string sense, string name, double lowerbound)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:97: warning: argument 'string' of command @param is not found in the argument list of Model::addConstraint(double rightSide, string sense, string name, double lowerbound)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:97: warning: argument 'string' of command @param is not found in the argument list of Model::addConstraint(double rightSide, string sense, string name, double lowerbound)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:104: warning: The following parameters of Model::addConstraint(double rightSide, string sense, string name, double lowerbound)=0 are not documented:
+  parameter 'rightSide'
+  parameter 'sense'
+  parameter 'name'
+  parameter 'lowerbound'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:106: warning: argument 'none' of command @param is not found in the argument list of Model::addConstraint(double coeff, int rhsVarId, int lhsVarId, string type, string name, double lowerbound)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:110: warning: The following parameters of Model::addConstraint(double coeff, int rhsVarId, int lhsVarId, string type, string name, double lowerbound)=0 are not documented:
+  parameter 'coeff'
+  parameter 'rhsVarId'
+  parameter 'lhsVarId'
+  parameter 'type'
+  parameter 'name'
+  parameter 'lowerbound'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:47: warning: argument 'double' of command @param is not found in the argument list of Model::addVar(double upperbound, double obj, string name, string type, double lowerbound)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:47: warning: argument 'double' of command @param is not found in the argument list of Model::addVar(double upperbound, double obj, string name, string type, double lowerbound)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:47: warning: argument 'string' of command @param is not found in the argument list of Model::addVar(double upperbound, double obj, string name, string type, double lowerbound)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:47: warning: argument 'string' of command @param is not found in the argument list of Model::addVar(double upperbound, double obj, string name, string type, double lowerbound)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:54: warning: The following parameters of Model::addVar(double upperbound, double obj, string name, string type, double lowerbound)=0 are not documented:
+  parameter 'upperbound'
+  parameter 'obj'
+  parameter 'name'
+  parameter 'type'
+  parameter 'lowerbound'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:125: warning: argument 'double' of command @param is not found in the argument list of Model::buildModel(string sense)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:129: warning: The following parameters of Model::buildModel(string sense)=0 are not documented:
+  parameter 'sense'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:56: warning: argument 'int' of command @param is not found in the argument list of Model::changeNonzeros(int nonzeros, string name)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:56: warning: argument 'string' of command @param is not found in the argument list of Model::changeNonzeros(int nonzeros, string name)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:61: warning: The following parameters of Model::changeNonzeros(int nonzeros, string name)=0 are not documented:
+  parameter 'nonzeros'
+  parameter 'name'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:89: warning: argument 'int' of command @param is not found in the argument list of Model::chgCoeff(string constrName, string varName, float coeff)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:89: warning: argument 'double' of command @param is not found in the argument list of Model::chgCoeff(string constrName, string varName, float coeff)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:95: warning: The following parameters of Model::chgCoeff(string constrName, string varName, float coeff)=0 are not documented:
+  parameter 'constrName'
+  parameter 'varName'
+  parameter 'coeff'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:119: warning: argument 'none' of command @param is not found in the argument list of Model::getNumVars()=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:113: warning: argument 'string' of command @param is not found in the argument list of Model::removeConstraint(string name)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:117: warning: The following parameters of Model::removeConstraint(string name)=0 are not documented:
+  parameter 'name'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:63: warning: argument 'string' of command @param is not found in the argument list of Model::removeVar(string name)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:67: warning: The following parameters of Model::removeVar(string name)=0 are not documented:
+  parameter 'name'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:69: warning: argument 'const' of command @param is not found in the argument list of Model::setAllVarsConstraintCoeffs(const double *coeffs)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:74: warning: The following parameters of Model::setAllVarsConstraintCoeffs(const double *coeffs)=0 are not documented:
+  parameter 'coeffs'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:75: warning: argument 'const' of command @param is not found in the argument list of Model::setConstraintCoeffs(vector coeffs, string name)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:79: warning: The following parameters of Model::setConstraintCoeffs(vector coeffs, string name)=0 are not documented:
+  parameter 'coeffs'
+  parameter 'name'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:81: warning: argument 'string' of command @param is not found in the argument list of Model::setConstraintCoeffs(const double *coeffs, int constrIndex)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:81: warning: argument 'double' of command @param is not found in the argument list of Model::setConstraintCoeffs(const double *coeffs, int constrIndex)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:86: warning: The following parameters of Model::setConstraintCoeffs(const double *coeffs, int constrIndex)=0 are not documented:
+  parameter 'coeffs'
+  parameter 'constrIndex'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:143: warning: argument 'int' of command @param is not found in the argument list of Model::setParamMIPStart(double *values)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:155: warning: The following parameters of Model::setParamMIPStart(double *values)=0 are not documented:
+  parameter 'values'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:157: warning: argument 'int' of command @param is not found in the argument list of Model::setParamRins(int value)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:176: warning: The following parameters of Model::setParamRins(int value)=0 are not documented:
+  parameter 'value'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:131: warning: argument 'double' of command @param is not found in the argument list of Model::setParamTimeLimit(double timeLimit)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:135: warning: The following parameters of Model::setParamTimeLimit(double timeLimiGenerating docs for compound Opt...
+'epstopdf' n?o ? reconhecido como um comando interno
+ou externo, um programa oper?vel ou um arquivo em lotes.
+Generating docs for compound OptCplex...
+'epstopdf' n?o ? reconhecido como um comando interno
+ou externo, um programa oper?vel ou um arquivo em lotes.
+Generating docs for compound OptGurobi...
+'epstopdf' n?o ? reconhecido como um comando interno
+ou externo, um programa oper?vel ou um arquivo em lotes.
+Generating docs for compound Param...
+Generating docs for compound ProblemSolver...
+Generating namespace index...
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+writing tag file...
+lookup cache used 220/65536 hits=1215 misses=224
+finished...
+t)=0 are not documented:
+  parameter 'timeLimit'
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:137: warning: argument 'double' of command @param is not found in the argument list of Model::setParamTolerance()=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:178: warning: argument 'int' of command @param is not found in the argument list of Model::setParamVarSel(int value)=0
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:201: warning: The following parameters of Model::setParamVarSel(int value)=0 are not documented:
+  parameter 'value'
+error: Problems running epstopdf. Check your TeX installation!
+error: Problems running epstopdf. Check your TeX installation!
+error: Problems running epstopdf. Check your TeX installation!
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:31: warning: Member fixedNumClusters (variable) of class Param is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/Opt.h:32: warning: Member numMaxIterations (variable) of class Param is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h:21: warning: Member ProblemSolver(int solver, int numObjs, int numClusters) (function) of class ProblemSolver is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h:23: warning: Member setEnvironment(Environment *env) (function) of class ProblemSolver is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h:24: warning: Member getEnvironment() (function) of class ProblemSolver is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h:25: warning: Member setSolver(int solver) (function) of class ProblemSolver is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h:26: warning: Member addSolution(Solution *solution) (function) of class ProblemSolver is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h:27: warning: Member getBestSolution() (function) of class ProblemSolver is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h:28: warning: Member getBestSolutionId() (function) of class ProblemSolver is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h:29: warning: Member setParams(Param p) (function) of class ProblemSolver is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h:30: warning: Member solveProblem() (function) of class ProblemSolver is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h:31: warning: Member buildProblem() (function) of class ProblemSolver is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h:36: warning: Member getClusters() (function) of class ProblemSolver is not documented.
+C:/Users/vinic/Documents/GitHub/GCInterface/GurobiCplexInterface/GurobiCplexInterface/Files/ProblemSolver.h:37: warning: Member objByCluster (variable) of class ProblemSolver is not documented.
+*** Doxygen has finished

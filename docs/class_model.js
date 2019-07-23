@@ -1,0 +1,27 @@
+var class_model =
+[
+    [ "Model", "class_model.html#ae3b375de5f6df4faf74a95d64748e048", null ],
+    [ "~Model", "class_model.html#ad6ebd2062a0b823db841a0b88baac4c0", null ],
+    [ "addConstraint", "class_model.html#a6151604d1de5b99f82d8cf276a384a7c", null ],
+    [ "addConstraint", "class_model.html#a6b038a583675575ac4d5deb24658fd88", null ],
+    [ "addVar", "class_model.html#a2aa70de43359e0aba9e4de10c54a4e42", null ],
+    [ "buildModel", "class_model.html#a7cfd91a5c2e0bf7d46e144a2fad217c2", null ],
+    [ "buildModel", "class_model.html#aa8e21221f1496e6f7078b148fafe6de5", null ],
+    [ "changeNonzeros", "class_model.html#a0efa111ab0a99a6b1c33e41a363689fe", null ],
+    [ "chgCoeff", "class_model.html#a5dabb5146229ad02068e30bf871aaacb", null ],
+    [ "getNumConstraints", "class_model.html#a6425936ef1feb88735f503562e8b4833", null ],
+    [ "getNumVars", "class_model.html#ab5ff3c4b389a9f4c447105bf1a71138c", null ],
+    [ "getVarsInSol", "class_model.html#a786ef9206723313a27a01e695996ff24", null ],
+    [ "printVarsInSol", "class_model.html#a063873c29384743c7e3c5cd952e7b977", null ],
+    [ "removeConstraint", "class_model.html#a02bb47a111c5ff2cfa0bf7397d3f96e6", null ],
+    [ "removeVar", "class_model.html#a7aa4d60e6fe7bfb8d8bbf8a08af80bb1", null ],
+    [ "setAllVarsConstraintCoeffs", "class_model.html#a03b9435e276b794cf531bc7f64b3babf", null ],
+    [ "setConstraintCoeffs", "class_model.html#a31b2228b6a597917ace8ea992b385f91", null ],
+    [ "setConstraintCoeffs", "class_model.html#a0d154011bfd3201e897175337be8a9aa", null ],
+    [ "setConstraintCoeffs", "class_model.html#a7917cba3514a329c15c93a05f491c4b8", null ],
+    [ "setParamMIPStart", "class_model.html#abddf7061f546e5133afd66141380365e", null ],
+    [ "setParamRins", "class_model.html#a243e8cab4eb725e9ec7c940cf6d3ca45", null ],
+    [ "setParamTimeLimit", "class_model.html#aa2a87f9634e1d9beed7b0c3dbb9343fd", null ],
+    [ "setParamTolerance", "class_model.html#a0c37f7a3c115a4158309c19b6d7b7022", null ],
+    [ "setParamVarSel", "class_model.html#a5ad04881381c6d72571cf4d359e7ab7f", null ]
+];
