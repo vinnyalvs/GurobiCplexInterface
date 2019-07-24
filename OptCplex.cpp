@@ -62,18 +62,6 @@ void CplexModel::addVar(double upperbound, double obj, string name, string type,
 	}
 }
 
-float CplexModel::around(float var)
-{
-	// 37.66666 * 100 =3766.66
-	// 3766.66 + .5 =37.6716    for rounding off value
-	// then type cast to int so value is 3766
-	// then divided by 100 so the value converted into 37.66
-	//cout << "var: " << var << endl;
-	float value = (int)(var * 1000 + .5);
-	//cout << (float)value / 100 << endl;
-	return (float)value / 1000;
-}
-
 
 void CplexModel::addConstraint(double rightSide, string type, string name, double lowerbound) {
 	try {
@@ -91,8 +79,6 @@ void CplexModel::addConstraint(double rightSide, string type, string name, doubl
 
 void CplexModel::addConstraint(double coeff, int rhsVarId, int lhsVarId, string type, string name, double lowerbound) {
 	try {
-		int coeffRounded = coeff * 1000;
-		coeff = (double)coeffRounded / 1000;
 		model.add(coeff * vars[lhsVarId] - vars[rhsVarId] <= 0);
 		numConstraints++;
 	}
@@ -248,26 +234,21 @@ void CplexModel::buildModel(string sense)
 	model.add(constr);
 	model.add(objective);
 
-	//if (sense == "maximize")
+	if (sense == "maximize")
 		objective.setSense(IloObjective::Maximize);
-	//else
-		//objective.setSense(IloObjective::Minimize);
+	else
+		objective.setSense(IloObjective::Minimize);
 
-	//cplex.setParam(IloCplex::EpGap, 1e-4);
 
 	//cout << std::fixed << endl;
 	for (int i = 0; i<numVars; i++) {
 		//cout << coeffsObj[i] << endl;
 		objective.setLinearCoef(vars[i], coeffsObj[i]);
-
 	}
 	try {
-
         cplex.exportModel("arquivo.lp");
 		cout << "----------------------------------------" << endl;
-	//	cplex.setParam(IloCplex::EpRHS, 1e-1);
 		cplex.solve();
-
 
 		cout << endl;
 		cout << "Solution status: " << cplex.getStatus() << endl;

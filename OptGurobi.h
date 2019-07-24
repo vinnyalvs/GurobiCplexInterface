@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include "Opt.h"
-
+#include "gurobi_c++.h"
 class OptGurobi : public Opt {
 private:
 
@@ -10,6 +10,7 @@ public:
 	OptGurobi();
 	~OptGurobi();
 };
+
 
 class GurobiModel : public Model {
 private:
@@ -29,6 +30,7 @@ public:
 	void	changeNonzeros(int nonzeros, string name);
 	void	removeVar(string name);
 	void	addConstraint(double rightSide, string sense, string name, double lowerbound=0);
+	void    addConstraint(double coeff, int rhsVarId, int lhsVarId, string type, string name, double lowerbound);
 	void    updateModel();
 	void	removeConstraint(string name);
 	int		getNumConstraints();
@@ -37,7 +39,9 @@ public:
 	void	setConstraintCoeffs(vector <double> coeffs, string name);
 	void	setConstraintCoeffs(const double *coeffs, int constrIndex);
 	void    setConstraintCoeffs(const double coeff, int indexConstr, int indexVar);
-	void	chgCoeff(string constrName, string varName, double coeff);
+	void	chgCoeff(string constrName, string varName, float coeff);
+
+
 	void	buildModel(string sense);
 	void	setParamTimeLimit();
 	void	setParamTimeLimit(double timeLimit);
@@ -49,7 +53,7 @@ public:
 	void	setParamVarSel();
 	void    setParamVarSel(int value);
 	void	printVarsInSol();
-	vector<double> getVarsInSol();
+	vector<int> getVarsInSol();
 	
 	bool    modelNeedUpdate;
 };

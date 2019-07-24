@@ -1,7 +1,8 @@
 #pragma once
 #include "Opt.h"
 #include "OptCplex.h"
-//#include "OptGurobi.h"
+#include "OptGurobi.h"
+
 class Environment {
 private:
 	int solver;
@@ -15,6 +16,7 @@ public:
 	IloEnv *getCplexEnv();
 	GurobiModel *getMdlGRB();
 	CplexModel *getMdlCplex();
+	Model *getModel();
 	void setCplexEnv(IloEnv *CplexEnv);
 	void setGrbEnv(GRBEnv *grbEnv);
 	void setSolver(int solver);

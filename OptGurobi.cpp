@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "OptGurobi.h"
 
 /**
@@ -136,6 +135,34 @@ void GurobiModel::addConstraint(double rightSide, string sense, string name, dou
 
 }
 
+void GurobiModel::addConstraint(double coeff, int rhsVarId, int lhsVarId, string type, string name, double lowerbound)
+{
+	try {
+		char s;
+
+		if (type == "<=") {
+			s = GRB_LESS_EQUAL;
+		}
+		else if (type == "=") {
+			s = GRB_EQUAL;
+		}
+		else {
+			s = GRB_GREATER_EQUAL;
+		}
+		//The expr its made with 0, only after(setAllVarsConstraintCoeffs or setConstraintCoeffs) we build the expr of the constr
+		GRBLinExpr expr = coeff * model->getVar(lhsVarId) - model->getVar(rhsVarId);
+		model->addConstr(expr, s, 0, name);
+		numConstraints++;
+		//model->update();
+
+	}
+	catch (GRBException e) {
+		cout << "Error code = " << e.getErrorCode() << endl;
+		cout << e.getMessage() << endl;
+	}
+
+}
+
 
 void GurobiModel::updateModel() {
 	model->update();
@@ -252,7 +279,7 @@ void GurobiModel::setConstraintCoeffs(const double coeff, int indexConstr, int i
 }
 
 //Here we actually change the coeff, so almost everything said above isn't nedded
-void GurobiModel::chgCoeff(string constrName, string varName, double coeff)
+void GurobiModel::chgCoeff(string constrName, string varName, float coeff)
 {
 	model->update();
 	try {
@@ -282,27 +309,14 @@ void GurobiModel::buildModel(string sense)
 		GRBVar *vars = model->getVars();
 		GRBLinExpr expr = 0;
 		for (int i = 0; i < getNumVars(); i++) {
-			cout << vars[i].get(GRB_DoubleAttr_Obj) << endl;
+			//cout << vars[i].get(GRB_DoubleAttr_Obj) << endl;
 			expr += GRBLinExpr(vars[i], vars[i].get(GRB_DoubleAttr_Obj)); // build the objective expression
 
 		}
 		model->setObjective(expr, s);
-
 		model->optimize();
 		cout << "Obj: " << model->get(GRB_DoubleAttr_ObjVal) << endl;
-
-
-
-
-
-
-
 		const int numVars = model->get(GRB_IntAttr_NumVars);
-
-
-
-
-
 
 
 	}
@@ -427,10 +441,10 @@ void GurobiModel::printVarsInSol()
 
 }
 
-vector<double> GurobiModel::getVarsInSol()
+vector<int> GurobiModel::getVarsInSol()
 {
 	GRBVar *vars = model->getVars();
-	vector <double> values;
+	vector <int> values;
 	for (int i = 0; i < getNumVars(); i++) {
 		if (vars[i].get(GRB_DoubleAttr_X) != 0) {
 			values.push_back(i);

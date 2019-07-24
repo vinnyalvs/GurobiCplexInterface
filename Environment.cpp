@@ -16,8 +16,6 @@ Environment::Environment(int solver)
 		this->cplexEnv = NULL;
 		this->mdlCplex = NULL;
 	}
-
-	cout << "alo" << endl;
 }
 
 GRBEnv * Environment::getGRBEnv()
@@ -40,6 +38,17 @@ CplexModel * Environment::getMdlCplex()
 	return this->mdlCplex;
 }
 
+Model *Environment::getModel()
+{
+	if (this->mdlCplex != NULL) {
+		return this->mdlCplex;
+	}
+	else
+	{
+		return this->mdlGRB;
+	}
+} 
+
 void Environment::setCplexEnv(IloEnv  *cplexEnv)
 {
 	this->cplexEnv = cplexEnv;
@@ -60,3 +69,4 @@ int Environment::getSolver()
 {
 	return solver;
 }
+
