@@ -48,7 +48,7 @@ A Tutorial to configure Gurobi in Visual Studio:
 After that, you can just download the interface and include it!!
 
 
-#### Code Example
+#### A brief example
 
 //TODO explain things
 
@@ -60,19 +60,22 @@ After that, you can just download the interface and include it!!
 
     int main () { 
     	const double coeffs[6] = { 1.5,4.0,3,1.5,1.0,1.0 }; //Problem Coeffs
-	int solver = -1; // Choose which solver use (1 for Cplex -1 for Gurobi)
-	Model *model= NULL; 
-	Environment *env = new Environment(solver);
-	model = env->getModel();
-	//Here I first add the right sides of the constraints and only after the coefficientes of variables are defined.
-	model->addConstraint(24, "<=", "ConstraintOne",0); 
-	model->addConstraint(21, "<=", "ConstraintTwo",0);
-	model->addConstraint(8, "<=", "ConstraintThree",0);
-	model->addVar(10, 4, "x1", "double",0);
-	model->addVar(10, 6, "x2", "double",0);
-	model->setAllVarsConstraintCoeffs(coeffs);
-	model->buildModel("maximize");
-	return 0;
+	
+		// Choose which solver use (1 for Cplex -1 for Gurobi), instanciate Environment and model.
+		int solver = -1; 
+		Model *model= NULL; 
+		Environment *env = new Environment(solver);
+		model = env->getModel();
+		
+		//Here I first add the right sides of the constraints and only after the coefficientes of variables are defined.
+		model->addConstraint(24, "<=", "ConstraintOne",0); 
+		model->addConstraint(21, "<=", "ConstraintTwo",0);
+		model->addConstraint(8, "<=", "ConstraintThree",0);
+		model->addVar(10, 4, "x1", "double",0);
+		model->addVar(10, 6, "x2", "double",0);
+		model->setAllVarsConstraintCoeffs(coeffs);
+		model->buildModel("maximize");
+		return 0;
     }
 
 
