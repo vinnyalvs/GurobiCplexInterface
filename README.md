@@ -13,7 +13,7 @@ The project is only source and headers files so you can just download it and use
 #include "GurobiCplexInterface/Enviroment.h"
 
 
-### Pré-requisitos:
+### Prerequisites:
 
 
  - Cplex version 12.0 or higher
@@ -48,15 +48,16 @@ A Tutorial to configure Gurobi in Visual Studio:
 After that, you can just download the interface and include it!!
 
 
-#### Code Example
+#### A brief example
 
-//TODO refactor code and explain things
+//TODO explain things
 
 	Modelo, slide três Uchoa.
 	
 	1,5x + 4,0x ≤ 24 
 	3,0x + 1,5x ≤ 21 
 	1,0x + 1,0x ≤ 8
+
 
 	const int cols = 2;
 	const int rows = 3;
@@ -89,6 +90,7 @@ After that, you can just download the interface and include it!!
 	delete[] coeffs; 
 
 	return 0; 
+
 
 
 ## Built With
