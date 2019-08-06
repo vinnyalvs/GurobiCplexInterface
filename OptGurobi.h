@@ -28,14 +28,18 @@ public:
 	GRBModel getModel();
 	void	addVar(double upperbound, double obj, string name, string type="float", double lowerbound = 0);
 	void	changeNonzeros(int nonzeros, string name);
+	void	removeVar(int index);
 	void	removeVar(string name);
 	void	addConstraint(double rightSide, string sense, string name, double lowerbound=0);
 	void    addConstraint(double coeff, int rhsVarId, int lhsVarId, string type, string name, double lowerbound);
 	void    updateModel();
 	void	removeConstraint(string name);
+	void	removeConstraint(int index);
 	int		getNumConstraints();
 	int		getNumVars();
 	void	setAllVarsConstraintCoeffs(const double *coeffs);
+	void	setAllVarsConstraintCoeffs(double **coeffs);
+
 	void	setConstraintCoeffs(vector <double> coeffs, string name);
 	void	setConstraintCoeffs(const double *coeffs, int constrIndex);
 	void    setConstraintCoeffs(const double coeff, int indexConstr, int indexVar);

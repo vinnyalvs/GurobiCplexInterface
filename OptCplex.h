@@ -30,6 +30,7 @@ public:
 	void		addVar(double upperbound, double obj, string name, string type = "float", double lowerbound=0);
 	float around(float var);
 	void		changeNonzeros(int nonzeros, string name);
+	void		removeVar(int index);
 	void		removeVar(string name);
 	void		removeVar(string name, bool deleteAll);
 	void		addConstraint(double rightSide, string type, string name, double lowerbound = 0);
@@ -37,9 +38,11 @@ public:
 	void        addConstraint(int rhsVarId, int lhsVarId, string type, string name, double lowerbound);
 	void		removeConstraint(string name);
 	void		removeConstraint(string name, bool deleteAll);
+	void		removeConstraint(int index);
 	int			getNumConstraints();
 	int			getNumVars();
 	void		setAllVarsConstraintCoeffs(const double* Coeffs);
+	void		setAllVarsConstraintCoeffs(double** Coeffs);
 	void		setConstraintCoeffs(vector <double> coeffs, string name);
 	void		setConstraintCoeffs(const double *coeffs, int constrIndex);
 	void		setConstraintCoeffs(const double coeff, int indexConstr, int indexVar);

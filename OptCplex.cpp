@@ -87,7 +87,10 @@ void CplexModel::addConstraint(double coeff, int rhsVarId, int lhsVarId, string 
 	}
 }
 
-
+void CplexModel::removeConstraint(int index) {
+	constr[index].end();
+	numConstraints--;
+}
 
 void CplexModel::removeConstraint(string name)
 {
@@ -135,6 +138,13 @@ void CplexModel::removeVar(string name, bool deleteAll)
 }
 
 
+void CplexModel::removeVar(int index)
+{
+	vars[index].end();
+	numVars--;
+
+}
+
 int CplexModel::getNumConstraints()
 {
 	return numConstraints;
@@ -152,7 +162,6 @@ void CplexModel::setAllVarsConstraintCoeffs(const double *coeffs)
 
 	int k = 0;
 	try {
-
 		for (int i = 0; i < numConstraints; i++) {
 			for (int j = 0; j < numVars; j++) {
 				k = i * numVars + j; // The Array coeffs it's a linearized matrix, so we need this line to access the index correctly
@@ -166,6 +175,27 @@ void CplexModel::setAllVarsConstraintCoeffs(const double *coeffs)
 		cerr << "Error: " << ex << endl;
 	}
 }
+
+void CplexModel::setAllVarsConstraintCoeffs(double **coeffs)
+{
+
+	int k = 0;
+	try {
+		for (int i = 0; i < numConstraints; i++) {
+			for (int j = 0; j < numVars; j++) {
+				cout << coeffs[i][j] << endl;
+				constr[i].setLinearCoef(vars[j], coeffs[i][j]);
+
+			}
+
+		}
+	}
+	catch (IloException& ex) {
+		cerr << "Error: " << ex << endl;
+	}
+
+}
+
 
 void CplexModel::setConstraintCoeffs(vector <double> coeffs, string name)
 {
@@ -193,11 +223,7 @@ void CplexModel::setConstraintCoeffs(const double * coeffs, int indexConstr)
 void CplexModel::setConstraintCoeffs(const double coeff, int indexConstr, int indexVar)
 {
 
-
 	constr[indexConstr].setLinearCoef(vars[indexVar], coeff);
-
-
-
 
 }
 

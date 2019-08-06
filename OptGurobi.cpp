@@ -93,6 +93,18 @@ void GurobiModel::changeNonzeros(int nonzeros, string name)
 
 }
 
+void GurobiModel::removeVar(int index)
+{
+	try {
+		GRBVar var = model->getVar(index);
+		model->remove(var);
+	}
+	catch (GRBException e) {
+		cout << "Error code = " << e.getErrorCode() << endl;
+		cout << e.getMessage() << endl;
+	}
+}
+
 void GurobiModel::removeVar(string name)
 {
 	try {
@@ -168,6 +180,20 @@ void GurobiModel::updateModel() {
 	model->update();
 
 }
+void GurobiModel::removeConstraint(int index)
+{
+	try {
+		GRBConstr constr = model->getConstr(index);
+		numConstraints--;
+		model->remove(constr);
+		model->update();
+	}
+	catch (GRBException e) {
+		cout << "Error code = " << e.getErrorCode() << endl;
+		cout << e.getMessage() << endl;
+	}
+}
+
 
 void GurobiModel::removeConstraint(string name)
 {
@@ -217,6 +243,41 @@ void GurobiModel::setAllVarsConstraintCoeffs(const double *coeffs)
 			for (int j = 0; j < getNumVars(); j++) {
 				k = i * getNumVars() + j; // The Array coeffs it's a linearized matrix, so we need this line to access the index correctly
 				expr[i] += GRBLinExpr(vars[j], coeffs[k]);
+
+			}
+			constr = model->getConstr(i);
+			model->addConstr(expr[i], constr.get(GRB_CharAttr_Sense), constr.get(GRB_DoubleAttr_RHS), constr.get(GRB_StringAttr_ConstrName));
+			model->update();
+
+		}
+		//deleting the old constrs
+		for (int i = 0; i < numConstraints; i++) {
+			constr = model->getConstr(i);
+			model->remove(constr);
+		}
+		model->update();
+
+
+	}
+	catch (GRBException e) {
+		cout << "Error code = " << e.getErrorCode() << endl;
+		cout << e.getMessage() << endl;
+	}
+}
+
+void GurobiModel::setAllVarsConstraintCoeffs(double **coeffs)
+{
+	//var to keep the old constr
+	GRBConstr constr;
+	expr.assign(numConstraints, GRBLinExpr());
+	//We update the model here as cautiously act. Because of the "Lazy Update" System GRB uses, so we have assurance the constr and vars are in the the model.
+	model->update();
+	int k;
+	try {
+		GRBVar *vars = model->getVars();
+		for (int i = 0; i < numConstraints; i++) {
+			for (int j = 0; j < getNumVars(); j++) {
+				expr[i] += GRBLinExpr(vars[j], coeffs[i][j]);
 
 			}
 			constr = model->getConstr(i);

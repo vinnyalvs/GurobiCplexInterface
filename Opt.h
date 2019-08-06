@@ -66,12 +66,25 @@ public:
 	*/
 	virtual void removeVar(string name) = 0;
 	/**
+	Remove a variable from the model
+	@param  int index of the Variable to be removed
+	@return none
+	*/
+	virtual void removeVar(int index) = 0;
+	/**
 	Set all Variables Coefficients
 	<br>Set the Coefficients of Variables in each Constraint. Array size should be the same as Constraints number x Vars number.<br>
 	@param  const double *coeffs Array of coefficients, its a linearized matrix
 	@return none
 	*/
 	virtual void setAllVarsConstraintCoeffs(const double *coeffs) = 0;
+	/**
+	Set all Variables Coefficients
+	<br>Set the Coefficients of Variables in each Constraint. Matrix size should be the same as Constraints number x Vars number.<br>
+	@param  double **coeffs Matrix of coefficients, 
+	@return none
+	*/									
+	virtual void setAllVarsConstraintCoeffs(double **coeffs) = 0;
 	/** Set the Coefficients of Variables in one Constraint
 	@param  const double *coeffs Array of coefficients, including zeros
 	@return none
@@ -108,12 +121,13 @@ public:
 	@return none
 	*/
 	virtual void addConstraint(double rightSide, string sense, string name, double lowerbound) = 0;
+
+	virtual void addConstraint(double coeff, int rhsVarId, int lhsVarId, string type, string name, double lowerbound) = 0;
 	/**
 	return the number of Constraints
 	@param none
 	@return int numConstraints, the number of constraints in model
 	*/
-	virtual void addConstraint(double coeff, int rhsVarId, int lhsVarId, string type, string name, double lowerbound) = 0;
 	virtual int getNumConstraints() = 0;
 	/**
 	remove a constraint which name is given
@@ -121,6 +135,12 @@ public:
 	@return none
 	*/
 	virtual void removeConstraint(string name) = 0;
+	/**
+	remove a constraint which index is given
+	@param  int index
+	@return none
+	*/
+	virtual void removeConstraint(int index) = 0;
 	/**
 	return the number of Variables
 	@param none
